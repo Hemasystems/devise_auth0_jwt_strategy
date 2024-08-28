@@ -17,6 +17,7 @@
 #
 
 require 'rails'
+require 'active_support/all'
 Time.zone = 'UTC'
 
 mock_models = Dir.glob( File.join(File.dirname(__FILE__), 'mock_models/**') )

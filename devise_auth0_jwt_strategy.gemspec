@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'devise', '>= 3.4'
   gem.add_dependency 'request_store', '~> 1.3'
 
-  gem.add_development_dependency 'rails', '>= 5.0.0'
-  gem.add_development_dependency 'rspec-rails', '~> 3.7'
+  gem.add_development_dependency 'rails', '>= 7.1.0'
+  gem.add_development_dependency 'rspec-rails', '~> 4.0'
 end
