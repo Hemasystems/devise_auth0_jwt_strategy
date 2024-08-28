@@ -1,11 +1,11 @@
 Gem::Specification.new do |gem|
   gem.name          = 'devise_auth0_jwt_strategy'
-  gem.version       = '0.0.12'
+  gem.version       = '0.0.13'
   gem.date          = '2015-03-10'
   gem.summary       = "Authenticate requests using an Auth0 JWT passed by HTTP header"
   gem.description   = gem.summary
-  gem.authors       = ["Patrick McGraw"]
-  gem.email         = 'pat@bloodhub.com'
+  gem.authors       = ["Patrick McGraw", "Michael Oliver"]
+  gem.email         = 'support@bloodhub.com'
   gem.files         = [ "lib/devise_auth0_jwt_strategy.rb",
                         "lib/devise_auth0_jwt_strategy/strategy.rb",
                         "lib/devise_auth0_jwt_strategy/railtie.rb" ]
