@@ -292,7 +292,7 @@ RSpec.describe Devise::Strategies::Auth0Jwt do
         end
 
         it "should fail! the authentication" do
-          expect(STDERR).to receive(:puts).with("JWT::DecodeError -- Signature verification raised")
+          expect(STDERR).to receive(:puts).with("JWT::DecodeError -- Signature verification failed")
           expect(subject).to receive(:fail!).with("JWT token is invalid. Please get a new token and try again.")
           subject.authenticate!
 
